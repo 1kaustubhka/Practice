@@ -1,0 +1,19 @@
+Header{
+    background-color: darkolivegreen;
+    color: darkorange;
+    border: deeppink 2px solid;
+}
+
+.Header2{
+    background-color: olive;
+    color: orchid;
+    border: lightcoral 2px solid;
+}
+
+div{position: relative;
+
+}
+
+.ndiv{
+    border: 2px black dashed;
+}

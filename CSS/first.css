@@ -1,0 +1,15 @@
+body{
+    background-color: lightcoral;
+}
+
+.even{
+    border: lightcyan 2px inset;
+    color: darkred;
+    background-color: lightslategray;
+}
+
+.odd{
+    border: darkcyan 2px inset;
+    color: darkolivegreen;
+    background-color: darkgray;
+}

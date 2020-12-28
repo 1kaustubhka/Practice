@@ -1,0 +1,56 @@
+html,body{
+    width: 100%;
+    height: 100%;
+}
+body{
+    background-color: lightgrey;
+    margin: 10px;
+}
+.bio{
+    background-image: url(../Images/mft.jfif);
+    width: 80%;
+    padding: 5%;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+h3{
+    color: white;
+}
+
+@media screen and (max-width: 479px){
+    .bio{
+    background-image: url(../Images/mh.jfif);
+    padding: 5%;
+    background-repeat: no-repeat;
+    background-size: contain;
+    }
+    body{
+        background-color: pink;
+    }
+}
+
+@media screen and (min-width: 480px) and (max-width: 767px){
+    .bio{
+    background-image: url(../Images/hurts.jfif);
+    padding: 5%;
+    background-repeat: no-repeat;
+    background-size: contain;
+    }
+    body{
+        background-color: seagreen;
+    }
+}
+
+
+@media screen and (min-width: 768px) and (max-width: 1024px){
+    .bio{
+    background-image: url(../Images/fl.jfif);
+    padding: 5%;
+    background-repeat: no-repeat;
+    background-size: contain;
+    }
+    body{
+        background-color: teal;
+    }
+}

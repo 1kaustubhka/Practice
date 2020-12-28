@@ -1,0 +1,33 @@
+body{
+    background-color: lightblue;
+    display: block;
+}
+form{
+    background-color: lightseagreen;
+    margin: 50px;
+    padding: 10px;
+    
+}
+input{
+    margin: 2px;
+    background-color: rgb(167, 221, 221);
+}
+
+button{
+    background-color: lightcyan;
+    min-width: 200px;
+    border: cyan 1px solid;
+    margin: 5px;
+    padding: 5px;
+}
+
+#shpass{
+        background-image: url("../Images/shps.png");
+        background-size: 20px;
+    min-width: 20px;
+    min-height: 20px;
+    border: cyan 1px solid;
+    margin: 1px;
+}
+
+

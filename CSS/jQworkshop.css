@@ -1,0 +1,29 @@
+th{
+    border: 2px black solid;
+    background-color: saddlebrown ;
+}
+td{
+    border: 1px black dashed;
+}
+
+tr{
+    border: 1px black solid;
+}
+table{
+    background-color: olivedrab ;
+}
+
+body{
+    background-color: olive;
+    border: saddlebrown 5px solid;
+}
+
+input{
+    height: 20px;
+    background-color: burlywood
+
+}
+
+.even{
+    background-color:burlywood ;
+}
