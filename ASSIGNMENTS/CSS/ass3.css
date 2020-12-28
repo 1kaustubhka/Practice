@@ -1,0 +1,54 @@
+html,body{
+    width: 100%;
+    background-color:darkcyan;
+}
+
+nav{
+    background-color: lightgreen;
+    width: 100%;
+   float: center;
+}
+.dropbtn{
+    
+    text-align: center;
+    background-color: lightgreen;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    min-width: 160px;
+    border: none;
+    display: block;
+}
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.drp-cnt {
+    display: none;
+    position: absolute;
+    background-color:lightgreen;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}  
+  
+a{
+    text-align: center;
+    background-color: lightgreen;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    min-width: 160px;
+    border: none;
+    display: block;
+}
+
+
+.drp-cnt a:hover {background-color: #ddd;}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .drp-cnt {display: block;}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown:hover .dropbtn {background-color: #3e8e41;}

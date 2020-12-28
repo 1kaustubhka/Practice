@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Veronica Creators</title>
+        
+    </head>
+    <body>
+      <center>
+        <header>
+            <h2>VERONICA CREATORS</h2>
+            <link rel="stylesheet" href="Assignment1.css">
+            <hr>
+        </header>
+        <nav>
+            <div>HOME</div>
+            <div>GENRE</div>
+            <div>REGISTRATION</div>
+            <div>CONTACT US</div>
+        </nav>
+        <hr>
+        <h3>Registration Form</h3>
+        <hr width="50%">
+        <form>
+             <label>Name:</label> <input id="name" type="text"><br>
+            <label>Email: </label><input id="email" type="email" required="true"><br>
+            <label>Phone No: code:</label><input id="code" maxlength="2" type="number" min="0">   No:<input id="no" type="tel" pattern="^[1-9][0-9]*" maxlength="10"><br>
+            <label>Password:</label> <input id="pass" type="password" required="true" minlength="8"><br>
+            <label>Confirm Password:</label> <input id="name" type="password" required="true" minlength="8"><br>
+            <label>PICK Genres You Like:</label><br>
+            <input type="checkbox">Pop</input><input type="checkbox">Rap</input><input type="checkbox">Rock</input>
+            <input type="checkbox">EDM</input><input type="checkbox">Soul</input><input type="checkbox">R&B</input><br>
+            <h4>PAYMENT DETAILS</h4>
+
+            <h4> Get Unlimited Songs. Zero Ads. Choose Plan:</h4>
+            
+            <h5>REGULAR : 500/6Months<input type="radio" value="regular" name="plans" required="required"></h5>
+            <h5>CHRISMAS OFFER : 900/year<input type="radio" value="offer" name="plans"></h5><br>
+       
+            <label>Card No:</label><input id="cardno" type="Number" maxlength="16" pattern="^[1-9][0-9]{15}" required="required"><br>
+            <label>Type:</label><select id="cardtype" required="required">
+                <option value="Visa">VISA</option>
+                <option value="MasterCard">MasterCard</option>
+                <option value="Maestro">Maestro</option>
+                <option value="Rupay">Rupay</option>
+            </select>
+            <label>Security Code</label><input width="3" maxlength="3" type="number" min="100" max="999" placeholder="On Back" required="required"><br>
+            
+            <button type="submit" onsubmit="alert('Thank You For Registering')">REGISTER</button>
+        </form>
+    </center>
+    </body>
+</html>

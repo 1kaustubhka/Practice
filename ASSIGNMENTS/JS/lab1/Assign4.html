@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Using External Script in HTML Document</title>
+    </head>
+    <script  type="text/javascript">
+        var headParam=5;
+    </script>
+    <body>
+        <hr>
+        <p>Script is located in external script file named "HelloWorld.js"</p>
+        <script type="text/javascript">
+          var bodyParam=10;
+        </script>
+        <hr>
+        <script src="common.js">
+        </script>
+        <hr>
+        <script>
+            addNumbers(headParam,bodyParam);
+        </script>
+        <hr>
+    </body>
+</html>

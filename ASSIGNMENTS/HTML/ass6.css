@@ -1,0 +1,22 @@
+@keyframes slide{
+    0% {color: violet;}
+    14% {color: indigo;}
+    28% {color: blue;}
+    42% {color: green;}
+    56% {color: yellow;}
+    70% {color: orange;}
+    84% {color: red;}
+}
+
+div#hd{
+    display: flex;
+    flex-direction: row;
+    flex-flow: row;   
+}
+h1{
+    animation: slide 35s infinite;
+    text-align: center;
+}
+body{
+    background-color: slategray;
+}

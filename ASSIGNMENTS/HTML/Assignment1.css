@@ -1,0 +1,30 @@
+header{
+    background-color: lightcyan;
+}
+nav{
+    background-color: lightseagreen;
+}
+form{
+    border: lightslategrey;
+    border: 2px dashed;
+    background-color: lightsteelblue;
+    
+}
+input{
+    margin-top: 5px;
+    
+}
+body{
+    background-color: lightslategray;
+}
+
+button{
+    width: 150px;
+    margin-top: 1px;
+    background-color: lightgray;
+    font-family: 'Times New Roman', Times, serif;
+}
+label{
+    align-content: left;
+    display: inline-block;
+}

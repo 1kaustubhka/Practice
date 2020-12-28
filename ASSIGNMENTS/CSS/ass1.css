@@ -1,0 +1,18 @@
+table{
+    border: solid 1px black;
+}
+
+th{
+    border: solid 1px black;
+    background-color: lightgray;
+}
+tr{
+    border: 1px black solid;
+}
+td{
+    border: 1px black solid;
+}
+
+tr.odd{
+    background-color: chartreuse;
+}

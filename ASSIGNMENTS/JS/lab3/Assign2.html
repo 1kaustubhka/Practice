@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            String
+        </title>
+        
+    </head>
+    <BODY>
+        <script type="text/javascript">
+           function cmpnm()
+        {
+                var companyName = new String("Cybage Software Pvt Ltd");
+                var letter = prompt("Enter letter to search: ");
+                var pos = companyName.indexOf(letter);
+                if(pos>-1)
+                {
+                    document.writeln("Character "+letter+" found at position "+(pos+1));
+                }
+                else{
+                    document.writeln("Character "+letter+" not found");
+                }
+                document.write("<br>"+companyName.split("Pvt Ltd"));
+                document.writeln("<br>"+companyName.toLowerCase());
+                document.writeln("<br>"+companyName.toUpperCase());
+        }
+        cmpnm();
+        </script>
+    </BODY>
+</html>

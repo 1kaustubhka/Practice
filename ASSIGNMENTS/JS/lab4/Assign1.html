@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            Array in Javascript
+        </title>
+
+        <script type="text/Javascript">
+            var arr = new Array();
+function adddd()
+{
+    var inp = document.getElementById('inp');
+    arr.push(String(inp.value));  
+    
+    
+}
+
+function displayyy()
+{
+    document.writeln("<h2>List Of Strudents</h2><hr>");
+    for(var i=0;i<arr.length;i++)
+    {
+        document.writeln(arr[i]+"<br>");
+    }
+}
+        </script>
+    </head>
+    <body>
+        <input type="text" id="inp">
+        <button onclick="adddd()">Add</button>
+        
+        <button onclick="displayyy()">Display</button>
+    </body>
+</html>

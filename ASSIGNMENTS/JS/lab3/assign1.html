@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            date
+        </title>
+        
+    </head>
+    <BODY>
+        <script type="text/javascript">
+           function disdate()
+        {
+                var d = new Date();
+                document.writeln(d);
+               d.getHours();
+               if((d.getHours())<12)
+               {
+                   document.writeln("<br>GOOD MORNING!!!");
+               }
+                else if((d.getHours())>17)
+               {
+                   document.writeln("<br>GOOD EVENING!!!");
+               }
+               else 
+               {
+                document.writeln("<br>GOOD AFTERNOON!!!");
+               }
+                
+        }
+        disdate();
+        </script>
+    </BODY>
+</html>

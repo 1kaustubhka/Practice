@@ -1,0 +1,19 @@
+div{
+    border: 1px dashed;
+    width: 350px;
+    height: 70px;
+    padding: 10px;
+    border: 1px solid #aaaaaa;
+}
+
+img{
+    width: 350px;
+    height: 70px;
+   
+   
+}
+
+body{
+    background-color: rgb(190, 157, 85);
+}
+

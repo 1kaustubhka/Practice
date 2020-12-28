@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Assignment 6</title>
+        <Style>
+            table,tr,td{
+                border: 2px solid black;
+                padding: 2px;
+            }
+        </Style>
+    </head>
+    <body>
+        <table>
+                <tr >
+                    <td>HREF</td>
+                    <td id="hrefer">href</td>
+                </tr>
+                <tr>
+                    <td>Path Name</td>
+                    <td id="pname">pathname</td>
+                </tr>
+                <tr>
+                    <td>Protocol</td>
+                    <td id="protocol">protocol</td>
+                </tr>
+            
+        </table>
+
+        <script type="text/javascript">
+            document.getElementById("pname").innerHTML = location.pathname;
+            document.getElementById("hrefer").innerHTML = location.href;
+            document.getElementById("protocol").innerHTML = location.protocol;
+         </script>
+    </body>
+</html>

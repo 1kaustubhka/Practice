@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>JS WORKSHOP - CALC</title>
+        <link href="workshop.css" rel="stylesheet"></link>
+        <script src="wrk.js" type="text/javascript"></script>
+        
+    </head>
+    <body>
+        <center><h1>CALCULATOR</h1>
+        <div id="calculator"> 
+            <p width="100%" id ="inp">0</p>
+            <button id="dis" onclick="science()">Scientific</button>
+            <table>
+                <tr id="scintific">
+                    <td></td>
+                     <td id="Square"><button id="square" onclick="square()">Square</button></td>
+                     <td id="Cube"><button id="cube" onclick="cube()">Cube</button></td>
+                     <td id="Square Root"><button id="squareroot" onclick="squareroot()">Square Root</button></td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td><button id="C" type="reset" onclick="initial()">C</button></td>
+                    <td><button id="back" onclick="back()">Erase 1</button></td>
+                    <td><button id="=" onclick="calculate()">=</button></td>
+                </tr>
+                <tr>
+                    <td><button id="7" value="7" onclick="accept(this.value)">7</button></td>
+                    <td><button id="8" value="8" onclick="accept(this.value)">8</button></td>
+                    <td><button id="9" value="9" onclick="accept(this.value)">9</button></td>
+                    <td><button id="X" value="x" onclick="operate(this.value)">X</button></td>
+                </tr>
+                <tr>
+                    <td><button id="6" value="6" onclick="accept(this.value)">6</button></td>
+                    <td><button id="5" value="5" onclick="accept(this.value)">5</button></td>
+                    <td><button id="4" value="4" onclick="accept(this.value)">4</button></td>
+                    <td><button id="-" value="-" onclick="operate(this.value)">-</button></td>
+                </tr>
+                <tr>
+                    <td><button id="3" value="3" onclick="accept(this.value)">3</button></td>
+                    <td><button id="2" value="2" onclick="accept(this.value)">2</button></td>
+                    <td><button id="1" value="1" onclick="accept(this.value)">1</button></td>
+                    <td><button id="+" value="+" onclick="operate(this.value)">+</button></td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td><button id="0" value="0" onclick="accept(this.value)">0</button></td>
+                    <td><button id=".">.</button></td>
+                    <td><button id="/" value="/" onclick="operate(this.value)">/</button></td>
+                </tr>
+            </table>
+        </div>
+    </center>
+    </body>
+</html>

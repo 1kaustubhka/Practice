@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>FORM</title>
+        <link rel="stylesheet" href="Assign1.css">
+        <script src="Assign1.js" type="text/javascript"></script>
+    </head>
+    <body>
+        <center>        <form>
+            <label>First Name:  </label><input type="text" id="fname" onfocusout="validateName(this)" class="normal"><br><hr>
+            <label>Last Name:  </label><input type="text" id="lname" onfocusout="validateName(this)"  class="normal"><br><hr>
+            <label>Date:  </label><input type="text" id="datee" onfocus="setPatDate(this)"  onfocusout="validateDate(this)" onkeyup="clearInp(this)" class="normal" placeholder="dd-mm-yyyy"><br><hr>
+            <label>Email Address:  </label><input type="text" id="lname" onfocusout="alert('FOCUS OUT 2');"  class="normal"><br><hr>
+            <label>Hobby:  </label><input type="checkbox" id="readding" name="hobby" class="normal">READING<br>
+            <input type="checkbox" id="movies" name="hobby">MOVIES<br>
+            <input type="checkbox" id="music" name="hobby">MUSIC<br>
+           <div id="writer_div" hidden><label>Fav Writer</label><input type="text" id="writer" ><br></div>
+           <hr>
+            <button type="submit">SUBMIT</button><br>
+            <hr>
+            <button type="reset">RESET</button>
+        </form>
+    </center>
+
+    </body>
+</html>
